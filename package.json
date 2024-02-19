@@ -1,0 +1,19 @@
+{
+  "name": "site-vendas-de-ingressos-online",
+  "version": "1.0.0",
+  "description": "Site de vendas de ingressos online ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viitorsoares/Site-vendas-de-ingressos-online.git"
+  },
+  "author": "Vitor Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viitorsoares/Site-vendas-de-ingressos-online/issues"
+  },
+  "homepage": "https://github.com/Viitorsoares/Site-vendas-de-ingressos-online#readme"
+}
