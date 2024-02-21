@@ -15,3 +15,58 @@ header>h1 {
     font-size: 50px;
     color: #fff;
 }
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tamfont {
+    margin-top: 10px;
+}
+
+.margem {
+    margin-bottom: 50px;
+}
+
+div>h2 {
+    margin-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, blue, transparent);
+}
+
+.paragrafo {
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.em;
+    line-height: 1.5em;
+}
+
+.container {            
+    min-width: 300px;
+    max-width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.elemento {
+    height: 100px;
+    width: 500px;
+
+}
