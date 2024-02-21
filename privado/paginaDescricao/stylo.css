@@ -53,7 +53,6 @@ div>h2 {
 .container {            
     min-width: 300px;
     max-width: 1000px;
-    border: 2px solid black;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -63,10 +62,33 @@ div>h2 {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .elemento {
-    height: 100px;
-    width: 500px;
+    height: 150px;
+    width: 1000px;
+}
 
+.elemento>p {
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.btncomprar {
+    border: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: rgb(76, 76, 248);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btncomprar:hover{
+    background-color: blue;
 }

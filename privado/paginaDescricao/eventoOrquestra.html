@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário de 20 anos da Orquestra Sinfônica</title>
     <link rel="stylesheet" href="stylo.css">
-    <script src="./descricaoScript.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="scrpit/orquestra.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
     </header>
     <main>
         <div class="margem">
-            <h1 class="tamfont">Aniversário de 20 anos da Orquestra Sinfônica</h1>
-            <h4 class="tamfont">SEX, 01 MAR - 19:00</h4>
-            <h4 class="tamfont">Entrada: R$ 45,00</h4>
-            <h4 class="tamfont" style="margin-bottom: 50px;">Museu de Arte Moderna de São Paulo - Av. Pedro Alvares Cabral – Parque Ibirapuera - São Paulo, SP</h4>
+            <h1 class="tamfont">Aniversário de 20 anos da Orquestra Sinfônica 🎼</h1>
+            <h4 class="tamfont">📆 SEX, 01 MAR - 19:00
+            <h4 class="tamfont">💸 Entrada: R$ 45,00</h4>
+            <h4 class="tamfont">🗺️ Museu de Arte Moderna de São Paulo - Av. Pedro Alvares Cabral – Parque Ibirapuera - São Paulo, SP</h4>
         </div>
         <hr>
         <div>
@@ -36,12 +37,22 @@
     </main>
     <div class="container">
         <div class="elemento">
+            <img class="elemento1" src="bilhetes.png" alt="" height="150px" width="150px">
+        </div>
+
+        <div class="elemento">
             <h3>VALOR DO INGRESSO</h3>
-            <P>R$ 45,00</P>
+            <p>R$ 45,00</p>
+
+            <label for="quantidade2"><strong>Quantidade</strong></label>
+            <input type="text" name="quantidade" id="quantidade">
         </div>
-        <div>
-        
+
+        <div class="elemento">
+            <h3>VALOR TOTAL</h3><br>
+            <button class="btncomprar" id="comprar1">Comprar</button>
         </div>
+        <div id="valortotal"></div>
     </div>
 </body>
 </html>

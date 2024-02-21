@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comemoração do maior Evento de Gastronomia</title>
     <link rel="stylesheet" href="stylo.css">
-    <script src="./descricaoScript.js" defer></script>r
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="scrpit/gastronomia.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
     </header>
     <main>
         <div class="margem">
-            <h1 class="tamfont">Comemoração do maior Evento de Gastronomia</h1>
-            <h4 class="tamfont">SAB, 09 MAR - 10:00</h4>
-            <h4 class="tamfont">Entrada: R$ 35,00</h4>
-            <h4 class="tamfont">Parque do Povo - Av. Quatorze de Setembro - Presidente Prudente, SP</h4>
+            <h1 class="tamfont">Comemoração do maior Evento de Gastronomia 🍛</h1>
+            <h4 class="tamfont">📆 SAB, 09 MAR - 10:00</h4>
+            <h4 class="tamfont">💸 Entrada: R$ 35,00</h4>
+            <h4 class="tamfont">🗺️ Parque do Povo - Av. Quatorze de Setembro - Presidente Prudente, SP</h4>
         </div>
         <hr>
         <div>
@@ -38,12 +39,22 @@
     </main>
     <div class="container">
         <div class="elemento">
+            <img class="elemento1" src="bilhetes.png" alt="" height="150px" width="150px">
+        </div>
+
+        <div class="elemento">
             <h3>VALOR DO INGRESSO</h3>
-            <P>R$ 35,00</P>
+            <p>R$ 35,00</p>
+
+            <label for="quantidade"><strong>Quantidade</strong></label>
+            <input type="text" name="quantidade" id="quantidade">
         </div>
-        <div>
-        
+
+        <div class="elemento">
+            <h3>VALOR TOTAL</h3><br>
+            <button class="btncomprar" id="comprar2">Comprar</button>
         </div>
+        <div id="valortotal"></div>
     </div>
 </body>
 </html>
