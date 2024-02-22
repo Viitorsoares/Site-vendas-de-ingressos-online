@@ -1,7 +1,8 @@
-let valorUnidade3 = 10
-
 document.getElementById('comprar3').addEventListener('click', ()=> {
+    const valorUnidade3 = 10
     let quantidade = document.getElementById('quantidade').value
     let valorTotal = quantidade * valorUnidade3
-    alert(`${valorTotal}`)
-})
+    document.getElementById('valortotal').innerHTML = `R$ ${valorTotal},00`
+    })
+
+
